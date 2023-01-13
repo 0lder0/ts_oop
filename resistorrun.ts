@@ -12,6 +12,7 @@ class Resistor {
 }
 
 let resistors: Resistor[] = [];
-let r1: Resistor = new Resistor(1.5);
-console.log(r1.getCurrent(4));
+let r1: Resistor = new Resistor(220);
+console.log(r1.getCurrent(1000));
 console.log()
+
